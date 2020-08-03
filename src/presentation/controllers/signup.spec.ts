@@ -131,7 +131,7 @@ describe('Signup Controller', () => {
         name: 'any_name',
         email: 'any_email@mail.com.br',
         password: 'any_password',
-        password_confirmation: 'invalid@mail.com.br'
+        passwordConfirmation: 'invalid_password'
       }
     }
     const httpResponse = sut.handle(httpRequest)
